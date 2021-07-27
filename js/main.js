@@ -23,5 +23,5 @@ $('#cardBtn').click(function(){
 
 // sidebar
 $('.sideicon span').click(function(){
-    $('.sidebar2').slideToggle(500)
+    $('.sidebar2').slideToggle(300)
 })
