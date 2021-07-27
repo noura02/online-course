@@ -64,9 +64,11 @@ margin: 10px ;
 .sideicon{
     display: none;
     background-color: #fff;
-    padding: 10px 15px;
-  
+    width: 100vw;
+    padding: 5px;
+
 }
+
 .sideicon span{
     color: #aaa;
     border: 1px #eee solid;
