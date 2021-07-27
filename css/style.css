@@ -1,6 +1,7 @@
 body{
     background-color: #FBF0F0;
     font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
 }
 .main-color{
     color: #0F4ABD;
