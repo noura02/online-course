@@ -151,9 +151,17 @@
     <section class="sec-2">
         <div class="container searchDiv">
             <h3 class="my-4">Transfere Transaction</h3>
-            <div class="d-flex justify-content-between">
-                <input placeholder="Find a mentor to make payment transactions" class="form-control py-4" >
-                <button class="btn" type="submit">Search</button>
+            <div class="row ">
+                <div class="col-md-9  my-1">
+                    <div>
+                        <input placeholder="Find a mentor to make payment transactions" class="form-control py-4 w-100" >
+                    </div>
+                </div>
+                <div class="col-md-1  my-1">
+                    <div>
+                        <button class="btn" type="submit">Search</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -164,40 +172,62 @@
  <div class="searchDiv">
     <h6 class="my-4">Search Found:</h6>
     <div class="search-results  mb-5 px-3 py-2 bg-white">
-        <div class="d-flex justify-content-between ">
-            <img src="imgs/team-2.jpg" alt="mentor">
-            <span class=" my-auto">Angela Saraswati</span>
-            <span class=" my-auto">angelaSaraswati@gmail.com</span>
-            <div class="btns">
-                <a class="btn my-auto" type="button" ><i class="far fa-eye mr-2"></i>View</a>
-                <a class="btn" type="button" id="transBtn"><i class="fas fa-wallet mr-2"></i>Transfere</a>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="py-2">
+                    <img src="imgs/team-2.jpg" alt="mentor">
+                    <span class=" my-auto ml-2">Angela Saraswati</span>
+                </div>
             </div>
+           <div class="col-md-4 my-auto">
+           <div class="py-2" >
+                 <span >angelaSaraswati@gmail.com</span>
+           </div>
+           </div>
+           <div class="col-md-4">
+            <div class="btns py-2 text-lg-right">
+                <a class="btn my-auto bg-transparent" type="button" ><i class="far fa-eye mr-2"></i>View</a>
+                <a class="btn bg-transparent" type="button" id="transBtn"><i class="fas fa-wallet mr-2"></i>Transfere</a>
+            </div>
+           </div>
+           
         </div>
     </div>
  </div>
               
 
  <!-------------payment methods---------------->
-        <div class="d-none viewDiv">
+              <div class="d-none viewDiv">
             <h6 class="my-4">Transfere Details:</h6>
             <div class="bg-white all py-4 px-3">    
                 <h6 class="mb-4" style="font-style:italic;">Payment will be transferred to:</h6>   
                 <div class="search-results-payment  mb-5 px-3 py-2 bg-white">
-                 <div class="d-flex justify-content-between ">
-                     <img src="imgs/team-2.jpg" alt="mentor">
-                     <span class=" my-auto">Angela Saraswati</span>
-                     <span class=" my-auto">angelaSaraswati@gmail.com</span>
-                     <div class="btns">
-                         <a class="btn " type="button" id="viewBtn"><i class="far fa-eye mr-2"></i>View</a>
-                     </div>
-                 </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="py-2">
+                                <img src="imgs/team-2.jpg" alt="mentor">
+                                <span class=" my-auto ml-2">Angela Saraswati</span>
+                            </div>
+                        </div>
+                       <div class="col-md-4 my-auto">
+                       <div class="py-2" >
+                             <span >angelaSaraswati@gmail.com</span>
+                       </div>
+                       </div>
+                       <div class="col-md-4">
+                        <div class="btns py-2 text-lg-right">
+                            <a class="btn my-auto bg-transparent" type="button" ><i class="far fa-eye mr-2"></i>View</a>
+                        </div>
+                       </div>
+                       
+                    </div>
              </div>             
 
              <div class="payment-methods ">
                  <h5>Payment Methods</h5>
                  <h6 class="my-4">Select Payment Methods</h6>
-                 <a class="btn" id="cardBtn" type="button">Card</a>
-                 <a class="btn" id="paypalBtn" type="button">Paypal</a>
+                 <a class="btn bg-transparent" id="cardBtn" type="button">Card</a>
+                 <a class="btn bg-transparent" id="paypalBtn" type="button">Paypal</a>
 
 <!-------------card payment---------------->
                  <div class="card-payment  py-3 ">
